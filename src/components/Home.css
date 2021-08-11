@@ -1,0 +1,53 @@
+.loader {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+}
+.input {
+  padding: 8px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transform: translate(250px, 60px);
+}
+
+.container {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 100px;
+}
+.paginationBttns {
+  margin-left: 70px;
+  margin-top: 10px;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #008080;
+  color: #008080;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #008080;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #008080;
+}
